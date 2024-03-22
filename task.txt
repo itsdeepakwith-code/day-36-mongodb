@@ -1,0 +1,361 @@
+db.zentask.insertMany([
+  {
+    "october": {
+      "topics": {
+        "2024-10-01": ["HTML","HTML5","div"],
+        "2024-10-02": ["CSS","property","value"],
+        "2024-10-03": ["CSS","box-model","flex"],
+        "2024-10-04": ["CSS","overflow","position"],
+        "2024-10-07": ["DOM"],
+        "2024-10-08": ["setTimeout", "setInterval"],
+        "2024-10-09": ["callback", "callback_hell"],
+        "2024-10-10": ["promise", "promise_chain"],
+        "2024-10-11": ["async", "await"],
+        "2024-10-14": ["CRUD"],
+        "2024-10-15": ["React"],
+        "2024-10-16": ["JSX", "props"],
+        "2024-10-17": ["hooks", "useState"],
+        "2024-10-18": ["events", "state"],
+        "2024-10-21": ["components"],
+        "2024-10-22": ["router"],
+        "2024-10-23": ["Context_API"],
+        "2024-10-24": ["useRef", "useReducer"],
+        "2024-10-25": ["Redux"],
+        "2024-10-28": ["database", "sql"],
+        "2024-10-29": ["mongodb"],
+        "2024-10-30": ["NodeJS"]
+      },
+      "tasks_assigned": {
+        "2024-10-01": ["task1"],
+        "2024-10-02": ["task2"],
+        "2024-10-03": ["task3"],
+        "2024-10-04": ["task4"],
+        "2024-10-07": ["task5"],
+        "2024-10-08": ["task6"],
+        "2024-10-09": ["task7"],
+        "2024-10-10": ["task8"],
+        "2024-10-11": ["task9"],
+        "2024-10-14": ["task10"],
+        "2024-10-15": ["task11"],
+        "2024-10-16": ["task12"],
+        "2024-10-17": ["task13"],
+        "2024-10-18": ["task14"],
+        "2024-10-21": ["task15"],
+        "2024-10-22": ["task16"],
+        "2024-10-23": ["task17"],
+        "2024-10-24": ["task18"],
+        "2024-10-25": ["task19"],
+        "2024-10-28": ["task20"],
+        "2024-10-29": ["task21"],
+        "2024-10-30": ["task22"]
+      },
+      "company_drives": {
+        "2024-10-01": [],
+        "2024-10-02": [],
+        "2024-10-03": [],
+        "2024-10-04": [],
+        "2024-10-05": [],
+        "2024-10-06": [],
+        "2024-10-07": [],
+        "2024-10-08": [],
+        "2024-10-09": [],
+        "2024-10-10": [],
+        "2024-10-11": [],
+        "2024-10-12": [],
+        "2024-10-13": [],
+        "2024-10-14": [],
+        "2024-10-15": [
+          {
+            "companies": ["company1", "company2"],
+            "students_attended": ["student_one", "student_two"]
+          }
+        ],
+        "2024-10-16": [],
+        "2024-10-17": [],
+        "2024-10-18": [],
+        "2024-10-19": [],
+        "2024-10-20": [
+          {
+            "companies": ["company2", "company3"],
+            "students_attended": ["student_two", "student_three"]
+          }
+        ],
+        "2024-10-21": [],
+        "2024-10-22": [],
+        "2024-10-23": [],
+        "2024-10-24": [],
+        "2024-10-25": [
+          {
+            "companies": ["company1", "company3"],
+            "students_attended": ["student_one", "student_three"]
+          }
+        ],
+        "2024-10-26": [],
+        "2024-10-27": [],
+        "2024-10-28": [],
+        "2024-10-29": [],
+        "2024-10-30": [
+          {
+            "companies": ["company3", "company4"],
+            "students_attended": ["student_one", "student_four"]
+          }
+        ]
+      }
+    },
+    "codekata": [
+      {
+        "username": "student_one",
+        "problems_solved": 100
+      },
+      {
+        "username": "student_two",
+        "problems_solved": 90
+      },
+      {
+        "username": "student_three",
+        "problems_solved": 95
+      },
+      {
+        "username": "student_four",
+        "problems_solved": 80
+      }
+    ],
+    "attendance": {
+      "student_one": {
+        "oct_1": "present",
+        "oct_2": "present",
+        "oct_3": "absent",
+        "oct_4": "present",
+        "oct_7": "absent",
+        "oct_8": "absent",
+        "oct_9": "present",
+        "oct_10": "present",
+        "oct_11": "present",
+        "oct_14": "present",
+        "oct_15": "present",
+        "oct_16": "present",
+        "oct_17": "present",
+        "oct_18": "absent",
+        "oct_21": "absent",
+        "oct_22": "present",
+        "oct_23": "present",
+        "oct_24": "present",
+        "oct_25": "absent",
+        "oct_28": "present",
+        "oct_29": "absent",
+        "oct_30": "present"
+      },
+      "student_two": {
+        "oct_1": "absent",
+        "oct_2": "present",
+        "oct_3": "present",
+        "oct_4": "present",
+        "oct_7": "present",
+        "oct_8": "absent",
+        "oct_9": "present",
+        "oct_10": "present",
+        "oct_11": "absent",
+        "oct_14": "present",
+        "oct_15": "present",
+        "oct_16": "absent",
+        "oct_17": "absent",
+        "oct_18": "present",
+        "oct_21": "absent",
+        "oct_22": "present",
+        "oct_23": "absent",
+        "oct_24": "present",
+        "oct_25": "absent",
+        "oct_28": "present",
+        "oct_29": "absent",
+        "oct_30": "present"
+      },
+      "student_three": {
+        "oct_1": "absent",
+        "oct_2": "present",
+        "oct_3": "present",
+        "oct_4": "present",
+        "oct_7": "present",
+        "oct_8": "present",
+        "oct_9": "present",
+        "oct_10": "absent",
+        "oct_11": "absent",
+        "oct_14": "present",
+        "oct_15": "present",
+        "oct_16": "present",
+        "oct_17": "present",
+        "oct_18": "present",
+        "oct_21": "present",
+        "oct_22": "absent",
+        "oct_23": "present",
+        "oct_24": "present",
+        "oct_25": "absent",
+        "oct_28": "present",
+        "oct_29": "absent",
+        "oct_30": "present"
+      },
+      "student_four": {
+        "oct_1": "present",
+        "oct_2": "absent",
+        "oct_3": "present",
+        "oct_4": "present",
+        "oct_7": "absent",
+        "oct_8": "present",
+        "oct_9": "present",
+        "oct_10": "absent",
+        "oct_11": "present",
+        "oct_14": "absent",
+        "oct_15": "present",
+        "oct_16": "absent",
+        "oct_17": "present",
+        "oct_18": "present",
+        "oct_21": "absent",
+        "oct_22": "present",
+        "oct_23": "present",
+        "oct_24": "present",
+        "oct_25": "absent",
+        "oct_28": "present",
+        "oct_29": "absent",
+        "oct_30": "present"
+      }
+    }
+  }
+]);
+
+
+db.mentors.insertMany([
+  { "_id": 0, "mentor_name": "mentor_one", "mentees": "40" },
+  { "_id": 1, "mentor_name": "mentor_two", "mentees": "10" },
+  { "_id": 2, "mentor_name": "mentor_three", "mentees": "30" },
+  { "_id": 3, "mentor_name": "mentor_four", "mentees": "35" },
+  { "_id": 4, "mentor_name": "mentor_five", "mentees": "50" },
+])
+
+
+
+1. Find all topics and task in the month of october.
+
+db.zentask.aggregate([
+  {
+    $project: {
+      topics: "$october.topics",
+      tasks_assigned: "$october.tasks_assigned"
+    }
+  }
+]).pretty()
+
+2. Find all the company drives which appeared from 15th oct and 30th oct.
+
+db.zentask.aggregate([
+  {
+    $match: {
+      "october.company_drives": {
+        $elemMatch: {
+          $and: [
+            { $gte: { $toDate: "$_id" }, $lte: { $toDate: "2024-10-30" } },
+            { $lte: { $toDate: "$_id" }, $gte: { $toDate: "2024-10-15" } }
+          ]
+        }
+      }
+    }
+  },
+  {
+    $project: {
+      "company_drives": {
+        $filter: {
+          input: "$october.company_drives",
+          as: "drive",
+          cond: {
+            $and: [
+              { $gte: [{ $toDate: "$$drive" }, { $toDate: "2024-10-15" }] },
+              { $lte: [{ $toDate: "$$drive" }, { $toDate: "2024-10-30" }] }
+            ]
+          }
+        }
+      }
+    }
+  }
+])
+
+
+3. Find all the company drives and student who appeared for the drive.
+
+db.zentask.aggregate([
+  {
+    $project: {
+      company_drives: "$october.company_drives"
+    }
+  },
+  {
+    $unwind: "$company_drives"
+  },
+  {
+    $lookup: {
+      from: "attendance",
+      localField: "company_drives.students_attended",
+      foreignField: "_id",
+      as: "attended_students"
+    }
+  },
+  {
+    $project: {
+      company_drive_info: "$company_drives",
+      attended_students: 1
+    }
+  }
+])
+
+
+4. Find the number of problems solved by the user in codekata.
+
+db.zentask.aggregate([
+  {
+    $unwind: "$codekata"
+  },
+  {
+    $group: {
+      _id: "$codekata.username",
+      total_problems_solved: { $sum: "$codekata.problems_solved" }
+    }
+  }
+])
+
+
+5. Find all the mentors with mentee's count more than 15.
+
+  db.mentors.find({ "mentees": { $gt: "15" } })
+
+
+6. Find the number of student who are absent and task not submitted between 15 oct and 30 oct.
+
+db.zentask.aggregate([
+  {
+    $match: {
+      "_id": { $gte: new Date("2024-10-15"), $lte: new Date("2024-10-30") }
+    }
+  },
+  {
+    $project: {
+      attendance: { $objectToArray: "$attendance" }
+    }
+  },
+  {
+    $unwind: "$attendance"
+  },
+  {
+    $project: {
+      "attendance.student": "$attendance.k",
+      "attendance.absent_dates": "$attendance.v"
+    }
+  },
+  {
+    $match: {
+      "attendance.absent_dates": "absent"
+    }
+  },
+  {
+    $group: {
+      _id: null,
+      total_absent_students: { $sum: 1 }
+    }
+  }
+])
